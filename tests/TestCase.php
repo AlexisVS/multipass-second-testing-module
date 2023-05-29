@@ -1,9 +1,9 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace AlexisVS\MultipassSecondTestingModule\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use VendorName\Skeleton\SkeletonServiceProvider;
+use AlexisVS\MultipassSecondTestingModule\MultipassSecondTestingModuleServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -20,7 +20,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app): array
     {
         return [
-            SkeletonServiceProvider::class,
+            MultipassSecondTestingModuleServiceProvider::class,
         ];
     }
 

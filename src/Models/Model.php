@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Models;
+namespace AlexisVS\MultipassSecondTestingModule\Models;
 
 use App\Domain\Module\ModuleModel;
 

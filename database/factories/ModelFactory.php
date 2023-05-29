@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Database\Factories;
+namespace AlexisVS\MultipassSecondTestingModule\Database\Factories;
 
 use App\Domain\Module\ModuleFactory;
 

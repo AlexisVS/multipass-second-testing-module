@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests\Feature;
+namespace AlexisVS\MultipassSecondTestingModule\Tests\Feature;
 
 it('can test', function () {
     expect(true)->toBeTrue();

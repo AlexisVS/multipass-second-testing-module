@@ -3,7 +3,7 @@
 use App\Domain\Domain\Permissions\Enums\DashboardPermissionsEnum;
 use App\Domain\Module\Models\Module;
 
-$module = Module::where('name', ':package_slug')->first();
+$module = Module::where('name', 'multipass-second-testing-module')->first();
 
 // FRONT
 Route::name('module.'.$module->name.'.')
