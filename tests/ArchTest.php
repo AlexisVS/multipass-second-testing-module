@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace AlexisVS\MultipassSecondTestingModule\Tests;
 
 //it('will not use debugging functions')
 //    ->expect(['dd', 'dump', 'ray'])
