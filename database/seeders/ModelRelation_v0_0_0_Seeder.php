@@ -12,6 +12,6 @@ class ModelRelationV000Seeder extends Seeder
      */
     public function run(): void
     {
-         ModelRelation::factory()->count(10)->create();
+        ModelRelation::factory()->count(10)->create();
     }
 }
