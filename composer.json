@@ -16,6 +16,12 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/AlexisVS/multipass-testing-module"
+        }
+    ],
     "require": {
         "php": "^8.2",
         "illuminate/contracts": "^10.0",
