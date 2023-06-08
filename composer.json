@@ -19,7 +19,8 @@
     "repositories": [
         {
           "type": "vcs",
-          "url": "https://github.com/AlexisVS/multipass-testing-module"
+          "url": "https://github.com/AlexisVS/multipass-testing-module",
+            "provider-api" : "https://github.com/%package%"
         }
     ],
     "require": {
