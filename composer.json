@@ -1,7 +1,7 @@
 {
     "name": "alexisvs/multipass-second-testing-module",
     "description": "Second module for testing module dependencies ",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "keywords": [
         "AlexisVS",
         "laravel",
