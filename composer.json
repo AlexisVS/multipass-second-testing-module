@@ -1,7 +1,7 @@
 {
     "name": "alexisvs/multipass-second-testing-module",
     "description": "Second module for testing module dependencies ",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "keywords": [
         "AlexisVS",
         "laravel",
@@ -14,13 +14,6 @@
             "name": "AlexisVS",
             "email": "alexis.vansan1440@gmail.com",
             "role": "Developer"
-        }
-    ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/AlexisVS/multipass-testing-module",
-            "vendor-alias": "alexisvs/multipass-testing-module"
         }
     ],
     "require": {
