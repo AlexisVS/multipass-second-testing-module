@@ -2,7 +2,6 @@
 
 namespace AlexisVS\MultipassSecondTestingModule\Tests\Feature;
 
-
 /**
  * Test too much hard to implement.
  * If you go on phpmyadmin and check the database,
