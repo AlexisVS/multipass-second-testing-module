@@ -13,7 +13,7 @@ class ModelRelation extends ModuleFactory
     {
         return [
             'name' => $this->faker->name(),
-            'testing_module_id' => TestingModule::factory(),
+            'testing_module_id' => TestingModule::factory()->create(),
         ];
     }
 }

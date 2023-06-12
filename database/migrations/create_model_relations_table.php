@@ -11,7 +11,7 @@ return new class extends Migration
         Schema::create('multipass_second_testing_modules_table', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->foreignId('testing_module_id')->constrained('testing_module_table');
+            $table->foreignId('testing_module_id')->constrained('testing_modules');
             $table->timestamps();
         });
     }
