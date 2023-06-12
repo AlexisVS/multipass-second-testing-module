@@ -2,7 +2,7 @@
 
 namespace AlexisVS\MultipassSecondTestingModule\Database\Seeders;
 
-use AlexisVS\MultipassSecondTestingModule\Database\Factories\ModelRelation;
+use AlexisVS\MultipassSecondTestingModule\Models\ModelRelation;
 use Illuminate\Database\Seeder;
 
 class ModelRelationV000Seeder extends Seeder

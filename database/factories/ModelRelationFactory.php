@@ -2,10 +2,11 @@
 
 namespace AlexisVS\MultipassSecondTestingModule\Database\Factories;
 
+use AlexisVS\MultipassSecondTestingModule\Models\ModelRelation;
 use AlexisVS\MultipassTestingModule\Models\TestingModule;
 use App\Domain\Module\ModuleFactory;
 
-class ModelRelation extends ModuleFactory
+class ModelRelationFactory extends ModuleFactory
 {
     protected $model = ModelRelation::class;
 
