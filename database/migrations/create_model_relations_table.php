@@ -8,7 +8,7 @@ return new class extends Migration
 {
     public function up(): void
     {
-        Schema::create('multipass_second_testing_modules_table', function (Blueprint $table) {
+        Schema::create('model_relations', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->foreignId('testing_module_id')->constrained('testing_modules');
@@ -18,6 +18,6 @@ return new class extends Migration
 
     public function down(): void
     {
-        Schema::dropIfExists('multipass_second_testing_modules_table');
+        Schema::dropIfExists('model_relations');
     }
 };
